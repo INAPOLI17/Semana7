@@ -123,6 +123,7 @@
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(382, 274);
             this.dataGridView1.TabIndex = 9;
+            this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
             // button1
             // 
@@ -152,6 +153,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Vellonera Digital";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
